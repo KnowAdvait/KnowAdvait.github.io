@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grape+Nuts&family=Josefin+Sans:ital,wght@1,100&display=swap');
 
 * {
     margin: 0;
@@ -141,15 +143,21 @@ html {
 .secondHalf span {
     font-size: 70px;
     font-family: 'Grape Nuts', cursive;
+    left: 60%;
+    position: relative;
 }
 
 .text-big {
-    font-size: 41px;
-    font-family: 'Grape Nuts', cursive;
+    font-size: 36px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .text-small {
     font-size: 19px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* .btn {
@@ -288,11 +296,9 @@ html {
     height: 4px;
     margin: 3px 3px;
 }
-}
 
-@media screen {
-    
-}
+
+
 
 
 

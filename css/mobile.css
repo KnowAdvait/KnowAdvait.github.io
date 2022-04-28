@@ -1,4 +1,4 @@
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1167px) {
 
   .nav-list {
     flex-direction: column;
@@ -20,7 +20,9 @@
   }
 
   #search {
-    width: 100%;
+    width: 75%;
+    /* margin-bottom: 9px;
+    padding-inline-end: 7px 0px; */
   }
 
   .burger {
@@ -39,17 +41,17 @@
     flex-direction: column-reverse;
   }
 
-  .text-small {
+  /* .text-small {
     text-align: center;
   }
 
   .text-big {
     text-align: center;
-  }
+  } */
 
-  .buttons {
+  /* .buttons {
     text-align: center;
-  }
+  } */
 
   .paras {
     padding: 0px;
@@ -133,11 +135,16 @@
     width: 100%;
   }
 
+  .secondHalf span {
+    display: none;
+  }
 
-  @media screen and (max-width: 800px) {
-    .secondHalf span {
-      display: none;
-    }
+  .btnn{
+    margin-left: 28%;
+  }
+  .btnhome{
+    padding: 0px 13px;
+  }
 
 
-    }
+}

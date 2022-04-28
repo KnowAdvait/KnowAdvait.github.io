@@ -12,8 +12,9 @@
 .blog-post-content p{
     font-size: 17px;
     margin-top: 10px;
+    text-align: center;
 }
-}
+
 
 .row{
     display: flex;

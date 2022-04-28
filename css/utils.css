@@ -5,13 +5,15 @@
   --main-bg-color: black;
   --font1: "Baloo Bhaina 2", cursive;
   --font2: "Roboto", sans-serif;
+  --font3:'Grape Nuts', cursive;
 }
 
 .head{
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-align: center;
-  font-family: var(--font2);
-  font-size: 20px;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 30px;
 }
 .center{
   text-align: center
@@ -23,7 +25,9 @@
 .font2 {
   font-family: var(--font2);
 }
-
+.font3{
+  font-family: 'Bebas Neue', cursive;
+}
 .max-width-1 {
   max-width: 80vw;
 }
@@ -60,6 +64,29 @@
 }
 
 .btn:hover {
+  color: rgb(0, 0, 0);
+  /* background: var(--main-bg-color); */
+  background: white;
+  
+}
+
+.btnhome{
+  padding: 0px 20px;
+  padding-top: 3px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: none;
+  color: white;
+  left: 26%;
+  position: relative;
+  margin-top: 5px;
+}
+
+.btnhome:hover {
   color: rgb(0, 0, 0);
   /* background: var(--main-bg-color); */
   background: white;
