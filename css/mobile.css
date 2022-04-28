@@ -1,0 +1,143 @@
+@media screen and (max-width: 1140px) {
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    transition: all 0.5s ease-out;
+    height: 478px;
+  }
+
+  .rightNav {
+    text-align: center;
+  }
+
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+
+  #search {
+    width: 100%;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .h-nav-resp {
+    height: 72px;
+  }
+
+  .v-class-resp {
+    opacity: 0;
+  }
+
+  .section {
+    flex-direction: column-reverse;
+  }
+
+  .text-small {
+    text-align: center;
+  }
+
+  .text-big {
+    text-align: center;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .paras {
+    padding: 0px;
+  }
+
+  .contactsubmit button {
+    width: 128px;
+  }
+
+  .form-input {
+    margin: 0px -47px;
+    padding: 0px 62px;
+  }
+
+  .navigation {
+    flex-direction: column;
+    margin-bottom: 23px;
+  }
+
+  .nav-left {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content-right {
+    display: none;
+  }
+
+  .home-article {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-article-img {
+    text-align: center;
+  }
+
+  .year-box {
+    top: 25px;
+    left: 60vw;
+    font-size: 11px;
+    display: flex;
+  }
+
+  .year-box div {
+    padding: 0 3px;
+    margin: 0;
+  }
+
+  .home-article img {
+    width: 70vw;
+  }
+
+  .form-input {
+    width: 50%;
+  }
+
+  .form-box input,
+  textarea {
+    width: 66vw;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .social {
+    padding: 0;
+  }
+
+  .post-img {
+    height: auto;
+  }
+
+  .adjust-year {
+    position: static;
+    height: auto;
+    padding: 12px 0px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .secondHalf span {
+      display: none;
+    }
+
+
+    }
