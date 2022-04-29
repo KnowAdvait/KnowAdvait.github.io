@@ -89,6 +89,32 @@
     text-align: center;
   }
 
+  .blog-post-content p{
+    margin-left: -61px;
+    margin-right: -61px;
+  }
+  .blog-post-content h1{
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+
+  .author-info b{
+    font-size: 17px;
+    margin-left: 0px;
+    /* margin-right: -60px; */
+  }
+
+  .author-info div{
+    margin-left: -60px;
+    margin-right: -60px;
+  }
+
+  .social-icon a{
+    margin-left: -60px;
+    margin-right: -60px;
+    padding: 33px;
+  }
+
   .year-box {
     top: 25px;
     left: 60vw;
@@ -140,7 +166,7 @@
   }
 
   .btnn{
-    margin-left: 28%;
+    margin: var(--my-2);
   }
   .btnhome{
     padding: 0px 13px;

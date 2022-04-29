@@ -88,7 +88,7 @@ html {
     font-size: 33px;
     color: white;
     font-family: 'Grape Nuts', cursive;
-    margin-left: 24px;
+    margin-left: 35px;
     margin-right: 35px;
 }
 
@@ -107,6 +107,11 @@ html {
     /* background-color: rgb(248, 239, 239, 0.5); */
     margin-top: 23px;
     position: relative;
+}
+
+.home-article-content h3:hover {
+    color: rgb(158, 158, 247);
+
 }
 
 .box-main {
